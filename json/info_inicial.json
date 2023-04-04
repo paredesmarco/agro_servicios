@@ -1,0 +1,29 @@
+[{
+        "pantalla": "Modo de Uso",
+        "imagen": "img/online.png",
+        "textos": [
+            { "texto": "Si tienes una conexión a internet, puedes realizar tus actividades de manera online con información en tiempo real." },
+            { "texto": "Cuando vas a realizar tus actividades en lugares sin acceso a internet, primero debes acceder a la aplicación de manera online y sincronizar toda la información que necesitas y guardarla en tu dispositivo, para después acceder a ella cuando no estés conectado a internet." }
+        ]
+    },
+    {
+        "pantalla": "Usuarios",
+        "imagen": "img/usuarios.png",
+        "textos": [
+            { "texto": "Si eres un usuario interno se desplegarán las actividades que tengas asignadas automáticamente." },
+            { "texto": "Si eres un usuario externo, las actividades que puedes realizar en la aplicación se desplegarán conforme se habiliten tus operaciones en el Sistema GUIA." }
+        ]
+    },
+
+    {
+        "pantalla": "Registros",
+        "imagen": "img/registro.png",
+        "textos": [
+            { "texto": "Para acceder a esta aplicación es necesario que tengas una cuenta activa en el Sistema GUIA Web de Agrocalidad, tanto para usuarios internos como externos. " },
+            { "texto": "Puedes solicitar información en Atención al Cliente a los números 1800AGRO00(247600) O (02) 382-8860 para conocer el proceso de creación de una cuenta de usuario en el Sistema GUIA." },
+            { "texto": "Inicia sesión con tu cuenta del Sistema GUIA para usar esta aplicación." }
+        ]
+    }
+]
+
+
