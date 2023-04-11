@@ -1,3 +1,4 @@
+import 'package:agro_servicios/app/modules/registroInformacion/controllers/registroInformacionController.dart';
 import 'package:get/get.dart';
 
 import 'package:agro_servicios/app/data/provider/local/db_localizacion_provider.dart';
@@ -30,5 +31,6 @@ class InicialBinding implements Bindings {
      * Controladores
      */
     Get.put<LoginController>(LoginController());
+    Get.put<RegistroInformacionController>(RegistroInformacionController());
   }
 }

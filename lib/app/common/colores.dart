@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 class Colores {
+  /// Color rojo
+  static const Color red = Color(0xFFE53935);
+
   /// Color verde usado como accent color
   static const Color primaryColor = Color(0xFF09c273);
 

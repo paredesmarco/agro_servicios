@@ -55,6 +55,12 @@ import 'package:agro_servicios/app/modules/minador_sv/bindings/minador_binding.d
 import 'package:agro_servicios/app/modules/minador_sv/minador_sv.dart';
 import 'package:agro_servicios/app/modules/minador_sv/pages/minador_sincronizar_sv.dart';
 import 'package:agro_servicios/app/modules/minador_sv/pages/minador_ver_sv.dart';
+import 'package:agro_servicios/app/modules/registroInformacion/datosRegistroPaso1.dart';
+import 'package:agro_servicios/app/modules/registroInformacion/datosRegistroPaso3.dart';
+import 'package:agro_servicios/app/modules/registroInformacion/datosRegistroPaso4.dart';
+import 'package:agro_servicios/app/modules/registroInformacion/datosRegistroPaso5.dart';
+import 'package:agro_servicios/app/modules/registroInformacion/datosRegistroPaso6.dart';
+import 'package:agro_servicios/app/modules/registroInformacion/datosRegistroPaso2.dart';
 part './app_rutas.dart';
 
 abstract class AppPages {
@@ -243,5 +249,11 @@ abstract class AppPages {
       page: () => MinadorVerSv(),
       binding: MinadorBinding(),
     ),
+    GetPage(name: Rutas.DATOSREGISTRO, page: () => DatosRegistroPaso1()),
+    GetPage(name: Rutas.DATOSENTIDAD, page: () => DatosRegistroPaso2()),
+    GetPage(name: Rutas.DATOSFRONTERAENTIDAD, page: () => DatosRegistroPaso3()),
+    GetPage(name: Rutas.DATOSMUESTRA, page: () => DatosRegistroPaso4()),
+    GetPage(name: Rutas.DATOSCONTAMINANTE, page: () => DatosRegistroPaso5()),
+    GetPage(name: Rutas.ACCIONESTOMADAS, page: () => DatosRegistroPaso6()),
   ];
 }

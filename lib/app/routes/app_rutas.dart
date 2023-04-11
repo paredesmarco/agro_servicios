@@ -57,4 +57,11 @@ abstract class Rutas {
   static const MINADORFORMSV = '/minador_form_sv';
   static const MINADORSINCRONIZARSV = '/minador_sincronizar_sv';
   static const MINADORVERSV = '/minador_ver_sv';
+
+  static const DATOSREGISTRO = '/datosRegistro';
+  static const DATOSENTIDAD = '/datosEntidad';
+  static const DATOSFRONTERAENTIDAD = '/datosFronteraEntidad';
+  static const DATOSMUESTRA = '/datosMuestra';
+  static const DATOSCONTAMINANTE = '/datosContaminante';
+  static const ACCIONESTOMADAS = '/accionesTomadas';
 }
