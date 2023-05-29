@@ -2,5 +2,9 @@
 Aplicacion movil de agro calidad
 
 ## versiones
-flutter: 3.7.9
-dart: 2.19.6
+- flutter: 3.7.9
+- dart: 2.19.6
+
+## post clone
+- flutter pub get
+
